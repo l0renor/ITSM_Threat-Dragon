@@ -98,8 +98,8 @@
                 "height": 80
               },
               "position": {
-                "x": 571,
-                "y": 311
+                "x": 1003,
+                "y": 290
               },
               "angle": 0,
               "id": "9c862a17-274d-484f-a5ee-b167020e787c",
@@ -124,8 +124,8 @@
                 "height": 80
               },
               "position": {
-                "x": 1044,
-                "y": 315
+                "x": 713,
+                "y": 283
               },
               "angle": 0,
               "id": "afc74632-c352-4e69-81b7-5ed7d8cdb64e",
@@ -199,18 +199,61 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
+                "x": 278,
+                "y": 91
               },
               "target": {
-                "id": "f3acd3c7-c35f-4af4-9517-bf96a90d72c5"
+                "x": 570,
+                "y": 72
               },
               "vertices": [
                 {
-                  "x": 449,
-                  "y": 143
+                  "x": 396,
+                  "y": 132
+                },
+                {
+                  "x": 452,
+                  "y": 122
                 }
               ],
-              "id": "45e4769e-1237-40e7-b7a0-2eef8c1903d9",
+              "id": "f9b01948-a6b8-466d-b26e-023b8808595b",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "HTTPS Verbindung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "protocol": "HTTPS",
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
+              },
+              "target": {
+                "x": 1032,
+                "y": 57
+              },
+              "vertices": [],
+              "id": "7aa4a39a-3f60-4fb7-85b3-e2b54dcc656f",
               "labels": [
                 {
                   "position": 0.5,
@@ -224,6 +267,49 @@
                 }
               ],
               "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
+              },
+              "target": {
+                "x": 287,
+                "y": 58
+              },
+              "vertices": [
+                {
+                  "x": 406,
+                  "y": 65
+                }
+              ],
+              "id": "cd49a3a3-f736-4ba3-be4d-654728000e12",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4740178841747815,
+                    "offset": -4.538924949347731
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "HTTPS Verbindung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 10,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
