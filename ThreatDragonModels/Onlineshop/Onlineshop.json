@@ -27,6 +27,15 @@
               "id": "f3acd3c7-c35f-4af4-9517-bf96a90d72c5",
               "z": 1,
               "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "title": "XSS",
+                  "type": "Information disclosure",
+                  "mitigation": "Enable security options on website\nUse up-to-date browser version"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
