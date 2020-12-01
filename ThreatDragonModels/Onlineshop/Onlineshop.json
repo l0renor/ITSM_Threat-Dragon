@@ -670,6 +670,91 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
+              },
+              "target": {
+                "x": 849,
+                "y": 480
+              },
+              "vertices": [
+                {
+                  "x": 636,
+                  "y": 325
+                }
+              ],
+              "id": "b21c03fb-e913-48e6-98c8-a7d8861d7f98",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sicherungsdaten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 19,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 1285,
+                "y": 202
+              },
+              "target": {
+                "x": 717,
+                "y": 123
+              },
+              "vertices": [
+                {
+                  "x": 1055,
+                  "y": 180
+                },
+                {
+                  "x": 867,
+                  "y": 127
+                }
+              ],
+              "id": "a8fe3d65-2277-4af7-a44e-d7a05a576499",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Initialisierug der\nSicherung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
