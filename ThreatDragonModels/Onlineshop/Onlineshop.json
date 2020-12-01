@@ -390,7 +390,10 @@
               "id": "8f29f377-7a80-4afa-b65a-8e6f47bd5d1e",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.559002792452768,
+                    "offset": -4.423690220262459
+                  },
                   "attrs": {
                     "text": {
                       "text": "Fragt Daten ab",
@@ -431,7 +434,10 @@
               "id": "88e437af-a7e5-4271-b7b1-b6b8468c5630",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.31644148714376213,
+                    "offset": -20.46001509504557
+                  },
                   "attrs": {
                     "text": {
                       "text": "Liefert Daten",
@@ -729,8 +735,7 @@
                 "y": 202
               },
               "target": {
-                "x": 717,
-                "y": 123
+                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
               },
               "vertices": [
                 {
@@ -745,7 +750,10 @@
               "id": "a8fe3d65-2277-4af7-a44e-d7a05a576499",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.5488995504487919,
+                    "offset": -1.4149541110949833
+                  },
                   "attrs": {
                     "text": {
                       "text": "Initialisierug der\nSicherung",
@@ -791,6 +799,82 @@
                 }
               ],
               "z": 21,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "afc74632-c352-4e69-81b7-5ed7d8cdb64e"
+              },
+              "target": {
+                "id": "03efe5e2-a05c-4acf-ba7d-9a49e4b71170"
+              },
+              "vertices": [
+                {
+                  "x": 878,
+                  "y": 188
+                }
+              ],
+              "id": "d24ae5cf-49af-4b2a-a143-bd7dcbeaf932",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.3262888636865404,
+                    "offset": -11.899097990285993
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Administriation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 22,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "afc74632-c352-4e69-81b7-5ed7d8cdb64e"
+              },
+              "target": {
+                "id": "9c862a17-274d-484f-a5ee-b167020e787c"
+              },
+              "vertices": [],
+              "id": "1ef5725f-36da-4818-b597-e1ec350f2326",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Administriation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 23,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
