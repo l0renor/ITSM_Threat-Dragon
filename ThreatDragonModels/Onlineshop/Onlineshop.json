@@ -176,8 +176,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1262,
-                "y": 161
+                "x": 1290,
+                "y": 147
               },
               "angle": 0,
               "id": "131fbf19-1352-4c67-8d95-27eaa9e0d949",
@@ -454,8 +454,8 @@
                 "y": 324
               },
               "target": {
-                "x": 1260,
-                "y": 233
+                "x": 1343,
+                "y": 248
               },
               "vertices": [
                 {
@@ -546,13 +546,17 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 1249,
-                "y": 233
+                "x": 1286,
+                "y": 209
               },
               "target": {
                 "id": "9c862a17-274d-484f-a5ee-b167020e787c"
               },
               "vertices": [
+                {
+                  "x": 1245,
+                  "y": 229
+                },
                 {
                   "x": 1188,
                   "y": 278
@@ -564,7 +568,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 15",
+                      "text": "Initialisierung der\nSicherung",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -572,6 +576,91 @@
                 }
               ],
               "z": 16,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 992,
+                "y": 323
+              },
+              "target": {
+                "x": 873,
+                "y": 471
+              },
+              "vertices": [
+                {
+                  "x": 864,
+                  "y": 399
+                },
+                {
+                  "x": 821,
+                  "y": 424
+                }
+              ],
+              "id": "6dfb8ee7-54eb-4b85-a754-3fe0f226722f",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sicherungsdaten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 17,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "03efe5e2-a05c-4acf-ba7d-9a49e4b71170"
+              },
+              "target": {
+                "x": 848,
+                "y": 503
+              },
+              "vertices": [
+                {
+                  "x": 438,
+                  "y": 217
+                }
+              ],
+              "id": "494522ff-70a7-49c1-a98e-5c9e64813cd7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Sicherungsdaten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 18,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
