@@ -884,11 +884,57 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 383,
+                "y": 22
+              },
+              "target": {
+                "x": 88,
+                "y": 169
+              },
+              "vertices": [
+                {
+                  "x": 298,
+                  "y": 130
+                }
+              ],
+              "id": "45b0ebb0-f670-45ee-abb6-7b934e189781",
+              "z": 24,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 621,
+                "y": 11
+              },
+              "target": {
+                "x": 1052,
+                "y": 654
+              },
+              "vertices": [
+                {
+                  "x": 378,
+                  "y": 234
+                },
+                {
+                  "x": 516,
+                  "y": 481
+                }
+              ],
+              "id": "528e41d2-2cc9-4314-84f0-16e6d3f2c668",
+              "z": 25,
+              "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 649,
+          "height": 1116.5469970703125,
           "width": 1411
         }
       }
