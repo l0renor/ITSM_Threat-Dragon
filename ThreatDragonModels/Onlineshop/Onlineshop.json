@@ -365,6 +365,214 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "03efe5e2-a05c-4acf-ba7d-9a49e4b71170"
+              },
+              "target": {
+                "id": "9c862a17-274d-484f-a5ee-b167020e787c"
+              },
+              "vertices": [
+                {
+                  "x": 1095,
+                  "y": 239
+                }
+              ],
+              "id": "8f29f377-7a80-4afa-b65a-8e6f47bd5d1e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Fragt Daten ab",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 995,
+                "y": 285
+              },
+              "target": {
+                "x": 1060,
+                "y": 104
+              },
+              "vertices": [
+                {
+                  "x": 975,
+                  "y": 196
+                }
+              ],
+              "id": "88e437af-a7e5-4271-b7b1-b6b8468c5630",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Liefert Daten",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 877,
+                "y": 324
+              },
+              "target": {
+                "x": 1260,
+                "y": 233
+              },
+              "vertices": [
+                {
+                  "x": 1105,
+                  "y": 440
+                },
+                {
+                  "x": 1223,
+                  "y": 300
+                }
+              ],
+              "id": "078ef8c4-6624-42e5-8002-26ea15c2fffe",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.3987598028767957,
+                    "offset": 22.328671614233603
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Initialisierung\nSicherung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 1249,
+                "y": 198
+              },
+              "target": {
+                "id": "03efe5e2-a05c-4acf-ba7d-9a49e4b71170"
+              },
+              "vertices": [
+                {
+                  "x": 1218,
+                  "y": 195
+                },
+                {
+                  "x": 1166,
+                  "y": 172
+                },
+                {
+                  "x": 1159,
+                  "y": 139
+                }
+              ],
+              "id": "0ad13143-de43-40ff-af17-8feb2345304d",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Initialisierung der\nSicherung",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 1249,
+                "y": 233
+              },
+              "target": {
+                "id": "9c862a17-274d-484f-a5ee-b167020e787c"
+              },
+              "vertices": [
+                {
+                  "x": 1188,
+                  "y": 278
+                }
+              ],
+              "id": "36260b1d-e366-49bf-889e-3630f7b806af",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 15",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 16,
+              "attrs": {}
             }
           ]
         },
