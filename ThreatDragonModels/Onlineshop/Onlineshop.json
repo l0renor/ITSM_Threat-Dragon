@@ -203,8 +203,7 @@
                 "y": 91
               },
               "target": {
-                "x": 570,
-                "y": 72
+                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
               },
               "vertices": [
                 {
@@ -214,6 +213,10 @@
                 {
                   "x": 452,
                   "y": 122
+                },
+                {
+                  "x": 574,
+                  "y": 96
                 }
               ],
               "id": "f9b01948-a6b8-466d-b26e-023b8808595b",
@@ -345,7 +348,10 @@
               "id": "8a5b0069-e4d8-4622-b45f-7764b410dc7e",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.29424328567800956,
+                    "offset": -10.581025935798465
+                  },
                   "attrs": {
                     "text": {
                       "text": "Auslieferung\nRessourcen",
@@ -643,6 +649,10 @@
               },
               "vertices": [
                 {
+                  "x": 695,
+                  "y": 146
+                },
+                {
                   "x": 438,
                   "y": 217
                 }
@@ -746,6 +756,41 @@
                 }
               ],
               "z": 20,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 733,
+                "y": 281
+              },
+              "target": {
+                "id": "66383623-6a7f-4e9a-9be2-f4275bf2b03f"
+              },
+              "vertices": [],
+              "id": "f497e772-0671-4077-afe5-e68996ba8106",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Administriation",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 21,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
