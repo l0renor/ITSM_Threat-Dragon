@@ -252,14 +252,19 @@
                 "x": 1032,
                 "y": 57
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 920,
+                  "y": 61
+                }
+              ],
               "id": "7aa4a39a-3f60-4fb7-85b3-e2b54dcc656f",
               "labels": [
                 {
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 8",
+                      "text": "Ressourcen Anfrage",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -310,6 +315,47 @@
                 }
               ],
               "z": 10,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 1028,
+                "y": 94
+              },
+              "target": {
+                "x": 756,
+                "y": 103
+              },
+              "vertices": [
+                {
+                  "x": 866,
+                  "y": 99
+                }
+              ],
+              "id": "8a5b0069-e4d8-4622-b45f-7764b410dc7e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Auslieferung\nRessourcen",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
